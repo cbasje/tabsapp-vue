@@ -1,0 +1,7 @@
+{
+  "name": "tabsapp-vue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

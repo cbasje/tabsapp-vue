@@ -39,5 +39,10 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
+// FIXME
+router.beforeEach((to, from, next) => {
+  // if (to.name !== 'Login' && !isAuthenticated) next({ name: 'Login' })
+  // else next()
+})
 
 export default router

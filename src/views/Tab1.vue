@@ -11,6 +11,8 @@
           <ion-title size="large">Tab 1</ion-title>
         </ion-toolbar>
       </ion-header>
+
+      <button type="button" class="btn btn-info">Info</button>
     
       <ExploreContainer name="Tab 1 page" />
     </ion-content>

@@ -23,6 +23,9 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import ElementPlus from "element-plus";
+import 'element-plus/lib/theme-chalk/index.css';
+
 // Above the createApp() line
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
 
@@ -31,6 +34,7 @@ defineCustomElements(window);
 
 const app = createApp(App)
   .use(IonicVue)
+  .use(ElementPlus)
   .use(router);
   
 router.isReady().then(() => {
